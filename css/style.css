@@ -921,7 +921,6 @@ section {
   border-radius: .5rem;
   border: 0.2rem solid var(--gris-oscuro);
   text-align: center;
-  cursor: pointer;
   margin-top: 5rem;
 }
 
