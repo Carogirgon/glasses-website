@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="icon" href="images/logos/logoredandwhite.png">
+    <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="reviews.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <title>home</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+
+<!-- header starts  -->
+<header class="header">
+
+    <a href="home.html" class="logo"><img src="/images/logos/logoredbackground.png" width="230rem"></a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="products.html">Productos</a></li>
+            <li><a href="about.html">Nosotros</a></li>
+            <li><a class="active" href="contact.html">Contáctanos</a></li>
+        </ul>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="//wa.me/51969370561" target="_blank" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+<!-- header ends -->
+
+<!-- contact section starts  -->
+<section id="contact-details" class="section-p1">
+    <div class="details">
+        <span>Contáctanos hoy!</span>
+        <h2>Visita nuestra óptica</h2>
+        <h3>Oficina Principal</h3>
+        <div>
+            <li>
+                <i class="fal fa-map"></i>
+                <p>Jr. Huancavelica 470, Lima 15001, Perú, Segundo piso, Oficina 209.</p>
+            </li>
+            <li>
+                <i class="fal fa-envelope"></i>
+                <p>multiopticasvisual@hotmail.com</p>
+            </li>
+            <li>
+                <i class="fal fa-phone-alt"></i>
+                <p>+51 969 370 561</p>
+            </li>
+            <li>
+                <i class="fal fa-clock"></i>
+                <p>Lunes a Sabado 09:30 am - 08:00pm</p>
+                <p>Domingos 10:00 am - 05:00 pm</p>
+            </li>
+        </div>
+    </div>
+
+    <div class="map">
+        <!-- <iframe src="https://maps.app.goo.gl/ihLJCcLVCK69C9LE6" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.9692851558307!2d-77.03896112518794!3d-12.045634288191089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9ec4ea22797%3A0xcebee70ba281ed4c!2sMultiopticas%20Visual!5e0!3m2!1ses-419!2sus!4v1708275491203!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+<!-- contact section ends -->
+
+<!-- testimonials section starts -->
+<section class="testimonials">
+    <div class="container-tes">
+        <div class="section-header">
+            <h2 class="tittle-tes">Lo que nuestros clientes aman de nosotros</h2>
+        </div>
+        <div class="testimonials-content">
+            <div class="swiper testimonials-slider js-testimonials-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testimonials-item">
+                    <img src="/images/reviews/r1.png" alt="review1">
+                    </div>
+                    <div class="swiper-slide testimonials-item">
+                        <img src="/images/reviews/r2.png" alt="review2">
+                    </div>
+                    <div class="swiper-slide testimonials-item">
+                        <img src="/images/reviews/r3.png" alt="review3">
+                    </div>
+                    <div class="swiper-slide testimonials-item">
+                        <img src="/images/reviews/r4.png" alt="review4">
+                    </div>
+                    <div class="swiper-slide testimonials-item">
+                        <img src="/images/reviews/r5.png" alt="review5">
+                    </div>
+                    <div class="swiper-slide testimonials-item">
+                        <img src="/images/reviews/r6.png" alt="review5">
+                    </div>
+                    <div class="swiper-slide testimonials-item">
+                        <img src="/images/reviews/r7.png" alt="review5">
+                    </div>
+                    <div class="swiper-slide testimonials-item">
+                        <img src="/images/reviews/r8.png" alt="review5">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination js-testimonials-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.js-testimonials-slider', {
+        grabCursor: true,
+        spaceBetween: 30,
+        pagination: {
+            el: '.js-testimonials-pagination',
+            clickcable: true,
+        },
+        breakpoints:{
+            767:{
+                slidesPerView: 2
+            }
+        }
+    });
+</script>
+
+<!-- testimonials section ends -->
+
+
+
+<!-- footer section starts  -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Observa tu mundo en alta definicion</h3>
+        </div>
+
+        <div class="social-box">
+            <a href="https://www.facebook.com/profile.php?id=61552824920945" target="_blank"><img src="/images/icons/facebook.png" class="social"></a>
+            <a href="https://www.tiktok.com/@multiopticasvisua?_t=ZT-8u0KCRb6yti&_r=1" target="_blank"><img src="/images/icons/tik-tok.png" class="social"></a>
+            <a href="https://www.instagram.com/multiopticavisual/" target="_blank"><img src="/images/icons/instagram.png" class="social"></a>
+            <a href="//wa.me/51969370561" target="_blank"><img src="/images/icons/whatsapp.png" class="social"></a>
+        </div>
+
+        <div class="box">
+            <h3>Medios de pago seguros</h3>
+            <img src="/images/pagoss.png" width="80%">
+        </div>
+
+    </div>
+
+    <div class="credit"> © Code by CaroGirGon | Rights reserved </div>
+
+</section>
+<!-- footer section ends -->
+
+</body>
+</html>

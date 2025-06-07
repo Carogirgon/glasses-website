@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.cdnfonts.com/css/freehand575-bt');
+@import url("https://fonts.cdnfonts.com/css/good-times-2");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.cdnfonts.com/css/heavitas');
+
+:root{
+    /* Colores */
+    --blanco: #ffffff;
+    /* --rojo: rgb(217, 56, 49); */
+    --rojo: #9b1327;
+    --gris: #d9d9d9;
+    --negro:  #212121;
+    --gris-oscuro: #333333;
+    --rosa: #fddde4;
+    --amarillo: #efe0a3;
+    --naranja: #ec8236;
+    --azul-claro:#a2bcc5;
+    --azul-oscuro: #748ca6;
+    --violeta: #661f46;
+    /* --h1-color: hsl(0, 0%, 0%); */
+
+    /* Tipografia */
+    /* --font-family-agrandir: "Agrandir Wide Black"; */
+    --font-family-spartan: "Spartan", sans-serif;
+    --font-family-freehand: 'Freehand575 BT', sans-serif;
+    --font-family-goodtimes: 'Good Times Rg', sans-serif;
+    --font-family-heavitas: 'Heavitas', sans-serif;
+
+    /* font weight */
+    --font-weight-300: 300;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+    --font-weight-800: 800;
+    --font-weight-900: 900;
+
+    /* Transiciones */
+    --transition-1: 0.3s ease;
+    --transition-2: 0.2s ease;
+    --transition-3: all 400ms ease;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--font-family-goodtimes);
+    background: #fff;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+/* section */
+
+.section-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    line-height: 1.2;
+}
+
+/* testimonials */
+
+.testimonials{
+    padding: 100px 0;
+    margin: 10px;
+}
+
+.testimonials-item{
+    background-color: #fff;
+    padding: 2px;
+    /* border-radius: 30px; */
+}
+
+.testimonials-item .info{
+    display: flex;
+    align-items:last baseline;
+}
+
+.testimonials-item img{
+    max-width: 100%;
+    /* border-radius: 50%; */
+    /* margin-right: 20px; */
+    vertical-align: middle;
+} 
+
+/* .testimonials-item .name{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.2;
+} */
+
+/* .testimonials-item .job{
+    text-transform: capitalize;
+    color: #ec8236;
+}  */
+
+/* .testimonials-item p{
+    margin-top: 20px;
+    color: #ec8236;
+} */
+
+/* .testimonials-item .rating{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #9b1327;
+} */
+
+.testimonials .swiper-pagination{
+    position: relative;
+    margin-top: 40px;
+    bottom: auto;
+}
+
+.testimonials .swiper-pagination-bullet{
+    height: 12px;
+    width: 12px;
+    background-color: hsl(0, 0, 100%) ;
+}
+
+.testimonials .tittle-tes{
+    font-family: var(--font-family-goodtimes);
+}
