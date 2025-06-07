@@ -486,7 +486,7 @@ section {
 }
 
 #parallax-tres{
-  background-image: url(images/News/parallax2.png) ;
+  background-image: url(../images/News/parallax2.png) ;
   width: 100%;
   height: 70vh;
   background-size:cover;
