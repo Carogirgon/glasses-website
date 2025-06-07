@@ -472,7 +472,7 @@ section {
 }
 
 #parallax-dos{
-  background-image: url(images/News/ojos.jpg) ;
+  background-image: url(../images/News/ojos.jpg) ;
   width: 100%;
   height: 70vh;
   background-size:cover;
@@ -836,7 +836,7 @@ section {
 /* Openproducts ends */
 
   #parallax{
-    background-image: url(images/News/glasses.jpeg) ;
+    background-image: url(../images/News/glasses.jpeg) ;
     width: 100%;
     height: 70vh;
     background-size: cover;
