@@ -408,7 +408,7 @@ section {
 .skills{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-  gap: 12.75rem;
+  gap: 15rem;
   margin-top: 3rem;
   margin-bottom: 5rem;
   text-align: center;
@@ -1247,6 +1247,9 @@ section {
     background-attachment: scroll;
     background-position: center;
   }
+  .skills{
+    grid-template-columns: repeat(100px, minmax(300px,1fr));
+  }
 }
 /*# sourceMappingURL=style.css.map */
 
@@ -1268,6 +1271,8 @@ section {
   #parallax {
     background-attachment: scroll;
     background-position: center;
+    height: 40vh;
+    background-size: cover;
   }
 }
 
