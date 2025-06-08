@@ -1186,6 +1186,10 @@ section {
     background-attachment: scroll;
     background-position: center;
   }
+  .skills {
+    grid-template-columns: 1fr; /* una sola columna */
+    padding: 0 1rem; /* añade margen lateral */
+  }
 }
 
 @media (max-width: 768px) {
@@ -1232,6 +1236,10 @@ section {
     background-attachment: scroll;
     background-position: center;
   }
+  .skills {
+    grid-template-columns: 1fr; /* una sola columna */
+    padding: 0 1rem; /* añade margen lateral */
+  }
 }
 
 @media (max-width: 450px) {
@@ -1252,8 +1260,9 @@ section {
     background-attachment: scroll;
     background-position: center;
   }
-  .skills{
-    grid-template-columns: repeat(100px, minmax(300px,1fr));
+  .skills {
+    grid-template-columns: 1fr; /* una sola columna */
+    padding: 0 1rem; /* añade margen lateral */
   }
 }
 /*# sourceMappingURL=style.css.map */
@@ -1291,6 +1300,10 @@ section {
     height: 40vh;
     background-size: cover;
   }
+  .skills {
+    grid-template-columns: 1fr; /* una sola columna */
+    padding: 0 1rem; /* añade margen lateral */
+  }
 }
 
 /* Responsive para pantallas max-width 768px */
@@ -1318,6 +1331,10 @@ section {
     background-attachment: scroll;
     background-position: center;
   }
+  .skills {
+    grid-template-columns: 1fr; /* una sola columna */
+    padding: 0 1rem; /* añade margen lateral */
+  }
 }
 
 /* Responsive para pantallas max-width 450px */
@@ -1343,5 +1360,9 @@ section {
   #parallax {
     background-attachment: scroll;
     background-position: center;
+  }
+  .skills {
+    grid-template-columns: 1fr; /* una sola columna */
+    padding: 0 1rem; /* añade margen lateral */
   }
 }
