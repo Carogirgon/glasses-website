@@ -1176,6 +1176,9 @@ section {
   .home .slide .content h3 {
     text-shadow: #ffffff 1px 0 10px;
   }
+  .home .slide .content span{
+    text-shadow: #ffffff 1px 0 10px;
+  }
   section {
     padding: 2rem;
   }
