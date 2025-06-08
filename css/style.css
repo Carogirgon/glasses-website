@@ -1271,7 +1271,19 @@ section {
   #parallax {
     background-attachment: scroll;
     background-position: center;
-    height: 40vh;
+    height: 50vh;
+    background-size: cover;
+  }
+  #parallax-dos{
+    background-attachment: scroll;
+    background-position: center;
+    height: 60vh;
+    background-size: cover;
+  }
+  #parallax-tres{
+    background-attachment: scroll;
+    background-position: center;
+    height: 60vh;
     background-size: cover;
   }
 }
