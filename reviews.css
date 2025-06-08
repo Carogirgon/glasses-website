@@ -84,7 +84,6 @@ body{
 .testimonials-item{
     background-color: #fff;
     padding: 2px;
-    /* border-radius: 30px; */
 }
 
 .testimonials-item .info{
@@ -93,7 +92,7 @@ body{
 }
 
 .testimonials-item img{
-    width: 50px;
+    max-width: 100%;
     vertical-align: middle;
 } 
 
